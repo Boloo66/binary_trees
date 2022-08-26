@@ -1,7 +1,7 @@
-#ifndef __BINARY_TREES__
-#define __BINARY_TREES__
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 
-/#include <stddef.h>
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -84,4 +84,3 @@ int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 #endif /* BINARY_TREES_H */
-#endif /* __BINARY_TREES__ */
